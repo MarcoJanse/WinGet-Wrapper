@@ -771,7 +771,7 @@ $InTuneimportButton.Add_Click({
 
     # Check if $tenantIDTextBox.Text is empty, matches $tenantIDTextBoxDefaultText, or does not contain a dot
     if ([string]::IsNullOrWhiteSpace($tenantIDTextBox.Text) -or $tenantIDTextBox.Text -eq $tenantIDTextBoxDefaultText -or -not ($tenantIDTextBox.Text -like '*.*')) {
-        Write-ConsoleTextBox "Please enter a valid Tenant ID before importing to InTune."
+        Write-ConsoleTextBox "Please enter a valid Tenant Name (company.onmicrosoft.com) before importing to InTune."
         return  # Stop further execution
     }
 
