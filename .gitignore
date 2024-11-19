@@ -1,0 +1,25 @@
+# Secrets and Keys
+*.key
+*.cer
+*.pem
+*.pfx
+
+# Backup files
+*.bak
+
+# logs
+*.log
+
+# Temp files
+*.tmp
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+.vscode/*
+
+.DS_Store
+
+# WINGET-WRAPPER folders to exclude
+Logs/
+Packages/
